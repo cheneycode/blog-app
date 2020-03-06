@@ -1,0 +1,64 @@
+
+.header {
+	width: 100vw;
+	height: 30vh;
+	position: fixed;
+	top: 0vh;
+	z-index: 99;
+}
+.header-img {
+	width: 100vw;
+	position: absolute;
+	top: 10vh;
+	text-align: center;
+}
+.header-bar {
+	width: 92vw;
+	height: 150rpx;
+	border-radius: 7rpx;
+	background: #FFFFFF;
+	margin-left: 4vw;
+	position: absolute;
+	top: 25vh;
+	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.header-btn {
+	height: 150rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	text-align: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.number {
+	height: 55rpx;
+	padding-top: 10px;
+	font-size: 38rpx;
+	font-weight: 600;
+}
+.text {
+	height: 55rpx;
+	padding-top: 10px;
+	font-size: 28rpx;
+}
+.page {
+	width: 100vw;
+	height: 70vh;
+	margin-top: 35vh;
+}
+

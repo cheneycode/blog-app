@@ -1,0 +1,22 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/detil/detil",
+		"style": {
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "网页",
+			"navigationBarBackgroundColor": "#007AFF",
+			"backgroundColor": "#FFFFFF"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "沪漂述",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
